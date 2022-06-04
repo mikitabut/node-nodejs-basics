@@ -14,7 +14,7 @@ export const create = async () => {
     text,
     { flag: 'wx' },
     (err) => {
-      if (err.code === 'EEXIST') {
+      if (err && err.code === 'EEXIST') {
         throw new Error(errorText);
       }
 
