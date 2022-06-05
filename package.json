@@ -13,7 +13,8 @@
     "cli:env": "RSS_name1=\"value1\" NoRSSenvVar=\"port\" RsS_incorrectPattern=\"asd\" RSS_name2=\"value2\" node src/cli/env.js",
     "cli:args": "node src/cli/args.js --propName value --someAnotherProp 12312aqe --prop2Name value2",
     "modules:cjsToEsm": "node src/modules/cjsToEsm.mjs",
-    "hash:calcHash": "node src/hash/calcHash.js"
+    "hash:calcHash": "node src/hash/calcHash.js",
+    "streams:read": "node src/streams/read.js"
   },
   "repository": {
     "type": "git",
